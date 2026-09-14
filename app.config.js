@@ -33,6 +33,9 @@ module.exports = {
     plugins: ['expo-router', 'expo-video'],
     experiments: { typedRoutes: true },
     extra: {
+      eas: {
+        projectId: "8282a1ec-f88e-419d-8730-fbe7a6b2573d"
+      },
       domain: "ranchrodeo.pro",
       eventType: "ranchrodeo",
     },
