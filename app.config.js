@@ -17,6 +17,7 @@ module.exports = {
       supportsTablet: true,
       bundleIdentifier: "pro.ranchrodeo.app",
       infoPlist: {
+        ITSAppUsesNonExemptEncryption: false,
         NSCameraUsageDescription: 'Record your runs so RanchRodeo can analyse them.',
         NSMicrophoneUsageDescription: 'Capture audio alongside your run video.',
         NSPhotoLibraryUsageDescription: 'Pick a run video to analyse.',
